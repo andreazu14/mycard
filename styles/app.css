@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #da8dda, #bb77b4, #9c6291, #7d4e70, #5e3b52);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: inline-block;
+    background-color: #5e3b52;
+    padding: 30px 30px 36px 30px;
+    border-radius: 30px;
+    
+}
+
+#foto {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: solid white 8px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.redes i {
+    font-size: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
